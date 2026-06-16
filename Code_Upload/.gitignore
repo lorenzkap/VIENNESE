@@ -1,0 +1,22 @@
+# NEVER commit individual-level participant data — privacy-protected
+output_all.csv
+personal_data.csv
+export.csv
+*.csv
+!params/*.csv
+
+# Generated outputs
+Publication_Figures/
+*_Results/
+*.tif
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-linux/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+*:Zone.Identifier
